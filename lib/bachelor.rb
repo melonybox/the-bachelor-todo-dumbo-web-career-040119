@@ -1,4 +1,5 @@
 def get_first_name_of_season_winner(data, season)
+<<<<<<< HEAD
   nameWinner = []
   
   data.each do |sazon,items|
@@ -15,6 +16,11 @@ def get_first_name_of_season_winner(data, season)
   
   nameWinner = nameWinner[0].split(" ")
   return nameWinner[0]
+=======
+  # code here
+  data.each do |sazon,items|
+    if sazon == 
+>>>>>>> 838dab1e396a0be75ac10303288e223c3559bcf8
 end
 
 def get_contestant_name(data, occupation)
